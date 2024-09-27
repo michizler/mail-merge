@@ -17,7 +17,7 @@ import csv
 import gspread
 ```
 
-Use `pip install <*librarytobedownloaded*>` to download the required libraries. You can also use `pip show *<library>*` to check if a library is accessible to you.
+Use `pip install <librarytobedownloaded>` to download the required libraries. You can also use `pip show *<library>*` to check if a library is accessible to you.
 
 2. **Load JSON key file**
 
@@ -69,7 +69,7 @@ Or we can simply open an existing one if you so desire
 
 `spreadsheet.share('youremail@gmail.com', perm_type='user', role='writer')`
 
-I also created an instance taht'll be used for further confirmation purposes.
+I also created an instance that'll be used for further confirmation purposes.
 
 `spreadsheet_instance = client.open('name of new sheet')`
 
