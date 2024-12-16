@@ -1,6 +1,6 @@
 # Walkthrough
 
-It requores two major phases;
+It requires two major phases;
 
 1. Setting up the code snippet locally
 2. Using Mail Merge
